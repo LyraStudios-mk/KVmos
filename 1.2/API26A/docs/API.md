@@ -269,11 +269,7 @@ void setup() {
 }
 
 void loop() {
-  VMloop();                    // Run VM
-```
-
-
-instructions
+  VMloop();                    // Run VM instructions
 }
 
 ```
