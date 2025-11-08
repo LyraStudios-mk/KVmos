@@ -1,6 +1,6 @@
 # The Zinc Memory Allocator ZALLOC
 
-The zmalloc is simple, and very structurated. It divides the memory as in teh following:
+The zalloc is simple, and very structurated. It divides the memory as in teh following:
 
 ```
 Address|Name
