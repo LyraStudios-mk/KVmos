@@ -38,7 +38,7 @@ Relative Address:
 The entry type is mostly not enforced by the API, with 1 specific direct exception, which is the type 0, internally treathed as empty entry. And files and clusters, indirectly following the reason of not having a API enforced type entry number. But themself, as a type does exist, and it is impossed by the API.
 
 ZFS recommends the following entry numbers:
-
+```
     |Number     |Meaning
     ---------------------
 Type|0          |Empty (API Number Enforced)
@@ -47,7 +47,7 @@ Type|0          |Empty (API Number Enforced)
     |3          |RW File
     |4          |RO File
     |5          |Cluster
-
+```
 Data:
 
 ZFS only has 1 type of data, which are clusters. Cluster are section of memory taht containt 3 main blocks. 2 Bytes for the Cluster Chaining Pointer (ClusterPtr), 2 bytes for the size of data, and the following space is data itself.
